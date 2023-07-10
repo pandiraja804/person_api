@@ -1,0 +1,42 @@
+{
+  "name": "person_api",
+  "version": "1.0.0",
+  "description": "Basic curd operation person",
+  "main": "app.js",
+  "module": "cjs",
+  "scripts": {
+    "start": "node --watch app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandiraja804/person_api.git"
+  },
+  "keywords": [
+    "person",
+    "express.js",
+    "nodejs",
+    "person",
+    "api",
+    "curd"
+  ],
+  "author": "pandiraja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pandiraja804/person_api/issues"
+  },
+  "homepage": "https://github.com/pandiraja804/person_api#readme",
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "eslint-plugin-import": "^2.27.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "lodash.omit": "^4.5.0",
+    "mongoose": "^7.3.2",
+    "morgan": "^1.10.0"
+  }
+}
